@@ -15,7 +15,9 @@ html {
   color:#0e1a35 ;
   vertical-align: middle;
 }
-
+.page-wrapper {
+  display: flex;
+}
 /* === header ===*/
 .container.page-header {
   height:70px;
@@ -29,7 +31,7 @@ html {
 }
 /* *** side menu *** */
 .side-menu {
-  position: absolute;
+  position: static;
   width: 200px;
   left: 0;
   top:0;
@@ -160,7 +162,7 @@ html {
   background: #f6f7fa;
 }
 .content-wrapper {
-  width: 960px;
+  width: 90%;
 }
 main>.container{
   padding-bottom: 20px;

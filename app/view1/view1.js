@@ -10,7 +10,7 @@ angular.module('myApp.view1', ['ngRoute'])
 }])
 
 .controller('View1Ctrl', ['$scope',function($scope) {
-  $scope.sideBar = false;
+  $scope.sideBar = true;
   $scope.toggleSideBar = function () {
     $scope.sideBar = !$scope.sideBar;
   }
