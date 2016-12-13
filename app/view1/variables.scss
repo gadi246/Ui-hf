@@ -1,0 +1,46 @@
+//color pallete
+$header-icons: #0e1a35;
+$sidebar-icons: #5384ff;
+$boxes-bg: #fff;
+$content-bg: #f6f7fa;
+$border-bottom:#d4d9e3;
+$sidebar-bg: #0e1a35;
+$sidebar-top: #0d172e;
+$sidebar-bg-hover: #122143;
+$sidebar-left:#5584ff;
+$btn-proj-icon: #aac2ff;
+$btn-proj-bg:#5584ff;
+$data-font: #8492af;
+$counter-font: #fff;
+$button-font:#fff;
+$activity-counter:#5584ff;
+
+
+//borders
+$border-content:1px solid $border-bottom;
+$border-sidebar-bottom:1px solid $sidebar-top;
+$border-sidebar-left: 5px solid transparent;
+$border-sidebar-hover: 5px solid $sidebar-left ;
+//font size
+
+//placeholders
+%side-menu_tab {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  color:#fff;
+  background: $sidebar-bg;
+  text-decoration: none;
+  border-top: $border-sidebar-bottom;
+  border-left: $border-sidebar-left;
+  font-size: 1.5rem;
+  position: relative;
+}
+%btn {
+  border: none;
+  background: none;
+}
+%row-container {
+  display: flex;
+  align-items: center;
+}
